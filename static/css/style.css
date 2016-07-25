@@ -143,12 +143,12 @@ table {
   height: auto;
   min-height: 100%;
   /* This must be the same as the height of the footer */
-  margin-bottom: -265px; }
+  margin-bottom: -130px; }
   #wrapper:after {
     content: "";
     display: block;
     /* This must be the same as the height of the footer */
-    height: 265px; }
+    height: 130px; }
 
 .button {
   background: #303030;
@@ -375,9 +375,14 @@ table {
   text-transform: none; }
 
 .post-stub-date {
-  display: inline-block; }
-  .post-stub-date:before {
-    content: "/ "; }
+  display: inline-block; 
+  color: #aaa;
+  font-size: 13px;
+}
+
+.post-stub-date:before {
+  content: "/ "; 
+}
 
 .next-posts-link a,
 .previous-posts-link a {
@@ -446,11 +451,11 @@ table {
 .footer {
   background: #303030;
   color: #D3D3D3;
-  height: 265px;
+  height: 130px;
   margin-top: 95px;
   overflow: auto; }
   .footer .site-title-wrapper {
-    margin: 80px auto 35px; }
+    margin: 25px auto 30px; }
   .footer .site-title a:hover,
   .footer .button-square:hover {
     background: #121212; }
