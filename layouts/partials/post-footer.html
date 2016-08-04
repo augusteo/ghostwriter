@@ -10,9 +10,9 @@
   {{ end}}
 </footer>
 <div class="post-meta clearfix">
-  <img class="avatar" src="{{ .Site.BaseURL }}images/avatar.png">
+  <a href="/page/about/"><img class="avatar" src="{{ .Site.BaseURL }}images/avatar.png"></a>
   <div>
-    <span class="dark">{{ .Site.Params.name }}</span>
-    <span>{{ .Site.Params.aboutAuthor }}</span>
+    <span class="dark"><a href="/page/about/"><strong>{{ .Site.Params.name }}</strong></a></span>
+    <span><a href="/page/about/">{{ .Site.Params.aboutAuthor }}</a></span>
   </div>
 </div>

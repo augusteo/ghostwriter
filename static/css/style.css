@@ -527,8 +527,7 @@ table {
       float: none; }
 
   .site-nav-item {
-    display: block;
-    margin: 15px 0; }
+    margin: 15px 10px; }
 
   .post-header {
     margin-bottom: 20px;
